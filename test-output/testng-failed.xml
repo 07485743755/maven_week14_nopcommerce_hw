@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testsuite]">
+  <listeners>
+    <listener class-name="com.nopcommerce.demo.customListener.CustomListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nopcommerce.demo.testSuite.homePage.TestTopMenu">
+        <methods>
+          <include name="selectMenuAndClick"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testSuite.homePage.TestTopMenu -->
+      <class name="com.nopcommerce.demo.testSuite.computer.TestSuite">
+        <methods>
+          <include name="verifyProductArrangeInAlphaBaticalOrder"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testSuite.computer.TestSuite -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [testsuite] -->

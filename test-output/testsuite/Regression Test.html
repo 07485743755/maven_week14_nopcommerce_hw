@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 16 22:33:53 BST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108627 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.demo.testSuite.homePage.TestTopMenu.selectMenuAndClick()'><b>selectMenuAndClick</b><br>Test class: com.nopcommerce.demo.testSuite.homePage.TestTopMenu<br/>
+<a href="#Output-257718694" onClick='toggleBox("Output-257718694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-257718694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-257718694">
+Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br><br/>
+getting title text By.xpath: //div[@class='page-title']<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testSuite.computer.TestSuite.verifyProductAddedToShoppingCartSuccessfully()'><b>verifyProductAddedToShoppingCartSuccessfully</b><br>Test class: com.nopcommerce.demo.testSuite.computer.TestSuite<br/>
+<a href="#Output-1158676965" onClick='toggleBox("Output-1158676965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1158676965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1158676965">
+Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br><br/>
+Clicking on desktopLinkBy.xpath: //h2[@class='title']/a[@href='/desktops']<br><br/>
+Select filter A to Z fromBy.id: products-orderby<br><br/>
+Clicking on Build your own computer add to cart button By.xpath: //div[@data-productid='1']//div[@class='buttons']<br><br/>
+Getting welcome text By.xpath: //h1[contains(text(),'Build your own computer')]<br><br/>
+Select processor from drop down By.xpath: (//select[contains(@id,'product_attribute')])[1]<br><br/>
+Select ram from drop down By.xpath: (//select[contains(@id,'product_attribute')])[2]<br><br/>
+Getting list of hdd radio buttons By.xpath: (//ul[@class='option-list'])[1]//label<br><br/>
+Getting text320 GBFrom element 320 GB and compare with hdd400 GB [+$100.00]<br><br/>
+Getting text400 GB [+$100.00]From element 400 GB [+$100.00] and compare with hdd400 GB [+$100.00]<br><br/>
+Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[1]//label]<br><br/>
+Getting list of os radio buttons By.xpath: (//ul[@class='option-list'])[2]//label<br><br/>
+Getting textVista Home [+$50.00]From element Vista Home [+$50.00] and compare with osVista Premium [+$60.00]<br><br/>
+Getting textVista Premium [+$60.00]From element Vista Premium [+$60.00] and compare with osVista Premium [+$60.00]<br><br/>
+Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[2]//label]<br><br/>
+Getting list of software check box By.xpath: (//ul[@class='option-list'])[3]//label<br><br/>
+Getting textMicrosoft Office [+$50.00]From element Microsoft Office [+$50.00] and compare with softwareTotal Commander [+$5.00]<br><br/>
+Getting textAcrobat Reader [+$10.00]From element Acrobat Reader [+$10.00] and compare with softwareTotal Commander [+$5.00]<br><br/>
+Getting textTotal Commander [+$5.00]From element Total Commander [+$5.00] and compare with softwareTotal Commander [+$5.00]<br><br/>
+Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[3]//label]<br><br/>
+Getting price text from By.xpath: //span[contains(@id,'price-value')]<br><br/>
+Clicking on add to cart button By.xpath: //button[contains(@id,'add-to-cart-button')]<br><br/>
+Getting popup text from By.xpath: //body/div[@id='bar-notification']/div[1]/p[1]<br><br/>
+Accept pop up close button By.xpath: //body/div[@id='bar-notification']/div[1]/span[1]<br><br/>
+Mouse hover to shopping cart link By.xpath: //span[contains(text(),'Shopping cart')]<br><br/>
+Clicking on go to cart button By.xpath: //button[contains(text(),'Go to cart')]<br><br/>
+Getting welcome text from By.xpath: //h1[contains(text(),'Shopping cart')]<br><br/>
+Change Quantity 2 On element By.xpath: //input[contains(@id,'itemquantity')]<br><br/>
+Clicking on update shopping cart By.xpath: //button[contains(text(),'Update shopping cart')]<br><br/>
+Getting total price text from By.xpath: //td[@class='subtotal']/child::span<br><br/>
+Clicking on terms of service By.id: termsofservice<br><br/>
+Clicking on check out button By.id: checkout<br><br/>
+Getting welcome TextBy.xpath: //h1[contains(text(),'Welcome, Please Sign In!')]<br><br/>
+Clicking on checkOutAsGuest buttonBy.xpath: //button[@class='button-1 checkout-as-guest-button']<br><br/>
+Enter firstname Harry in first fieldBy.id: BillingNewAddress_FirstName<br><br/>
+Enter last name Potter in last name fieldBy.id: BillingNewAddress_LastName<br><br/>
+Clicking on email field By.id: BillingNewAddress_Email<br><br/>
+Send email id harryPotterrandom number774Domain@gmail.comIn emailid field By.id: BillingNewAddress_Email<br><br/>
+Select visible text United Kingdom In country field By.id: BillingNewAddress_CountryId<br><br/>
+Enter city name Leicester in city fieldBy.id: BillingNewAddress_City<br><br/>
+Enter address75,Corporation road in address fieldBy.id: BillingNewAddress_Address1<br><br/>
+Enter post codeLE45NJ in postal code fieldBy.id: BillingNewAddress_ZipPostalCode<br><br/>
+Enter phone number07896543215 in phone number fieldBy.id: BillingNewAddress_PhoneNumber<br><br/>
+Clicking on continue button By.xpath: //button[@onclick='Billing.save()']<br><br/>
+Clicking on next day air delivery radio button By.xpath: (//input[contains(@id,'shippingoption')])[2]<br><br/>
+Clicking on shipping continue button By.xpath: //button[@onclick='ShippingMethod.save()']<br><br/>
+Clicking on credit card radio button By.xpath: (//input[contains(@id,'paymentmethod')])[2]<br><br/>
+Clicking on payment continue button By.xpath: //button[@onclick='PaymentMethod.save()']<br><br/>
+Select card MasterCard from drop down By.id: CreditCardType<br><br/>
+Send text Harry Potter In card holder field By.id: CardholderName<br><br/>
+Send text 5465222828379708 In card number field By.id: CardNumber<br><br/>
+Send text 01 In expire month field By.id: ExpireMonth<br><br/>
+Send text 2022 In expire year field 2022<br><br/>
+Send text 283 In card code field By.id: CardCode<br><br/>
+Clicking on payment confirmation button By.xpath: //button[@onclick='PaymentInfo.save()']<br><br/>
+Getting payment method confirmation text from By.xpath: //button[@onclick='PaymentMethod.save()']<br><br/>
+Getting shipping method confirmation text from By.xpath: //li[@class='shipping-method']<br><br/>
+Getting total price text from By.xpath: //span[@class='value-summary']/child::strong<br><br/>
+Clicking on confirm order button By.xpath: //button[@onclick='ConfirmOrder.save()']<br><br/>
+Getting thank you text from By.xpath: //h1[text()='Thank you']<br><br/>
+Getting order confirmation text from By.xpath: //strong[text()='Your order has been successfully processed!']<br><br/>
+Clicking on continue buttonBy.xpath: //button[contains(text(),'Continue')]<br><br/>
+Getting welcome TextBy.xpath: //h2[text()='Welcome to our store']<br><br/>
+</div>
+</td>
+<td></td>
+<td>79</td>
+<td>com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testSuite.computer.TestSuite.verifyProductArrangeInAlphaBaticalOrder()'><b>verifyProductArrangeInAlphaBaticalOrder</b><br>Test class: com.nopcommerce.demo.testSuite.computer.TestSuite<br/>
+<a href="#Output-52451302" onClick='toggleBox("Output-52451302", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-52451302" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-52451302">
+Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br><br/>
+Clicking on desktopLinkBy.xpath: //h2[@class='title']/a[@href='/desktops']<br><br/>
+Select filter Z to A fromBy.id: products-orderby<br><br/>
+Get product name list from By.xpath: //div[@class='product-grid']//h2<br><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d</td></tr>
+</table><p>
+</body>
+</html>

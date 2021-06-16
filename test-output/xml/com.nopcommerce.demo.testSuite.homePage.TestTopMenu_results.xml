@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.182">
+  <properties />
+  
+  
+            <testcase name="selectMenuAndClick" time="1.182" classname="com.nopcommerce.demo.testSuite.homePage.TestTopMenu" />
+      
+</testsuite>

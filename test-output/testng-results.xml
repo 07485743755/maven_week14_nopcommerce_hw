@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on desktopLinkBy.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select filter A to Z fromBy.id: products-orderby<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Build your own computer add to cart button By.xpath: //div[@data-productid='1']//div[@class='buttons']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting welcome text By.xpath: //h1[contains(text(),'Build your own computer')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select processor from drop down By.xpath: (//select[contains(@id,'product_attribute')])[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select ram from drop down By.xpath: (//select[contains(@id,'product_attribute')])[2]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting list of hdd radio buttons By.xpath: (//ul[@class='option-list'])[1]//label<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting text320 GBFrom element 320 GB and compare with hdd400 GB [+$100.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting text400 GB [+$100.00]From element 400 GB [+$100.00] and compare with hdd400 GB [+$100.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[1]//label]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting list of os radio buttons By.xpath: (//ul[@class='option-list'])[2]//label<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting textVista Home [+$50.00]From element Vista Home [+$50.00] and compare with osVista Premium [+$60.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting textVista Premium [+$60.00]From element Vista Premium [+$60.00] and compare with osVista Premium [+$60.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[2]//label]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting list of software check box By.xpath: (//ul[@class='option-list'])[3]//label<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting textMicrosoft Office [+$50.00]From element Microsoft Office [+$50.00] and compare with softwareTotal Commander [+$5.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting textAcrobat Reader [+$10.00]From element Acrobat Reader [+$10.00] and compare with softwareTotal Commander [+$5.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting textTotal Commander [+$5.00]From element Total Commander [+$5.00] and compare with softwareTotal Commander [+$5.00]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[3]//label]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting price text from By.xpath: //span[contains(@id,'price-value')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on add to cart button By.xpath: //button[contains(@id,'add-to-cart-button')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting popup text from By.xpath: //body/div[@id='bar-notification']/div[1]/p[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Accept pop up close button By.xpath: //body/div[@id='bar-notification']/div[1]/span[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hover to shopping cart link By.xpath: //span[contains(text(),'Shopping cart')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on go to cart button By.xpath: //button[contains(text(),'Go to cart')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting welcome text from By.xpath: //h1[contains(text(),'Shopping cart')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Change Quantity 2 On element By.xpath: //input[contains(@id,'itemquantity')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on update shopping cart By.xpath: //button[contains(text(),'Update shopping cart')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting total price text from By.xpath: //td[@class='subtotal']/child::span<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on terms of service By.id: termsofservice<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on check out button By.id: checkout<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting welcome TextBy.xpath: //h1[contains(text(),'Welcome, Please Sign In!')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on checkOutAsGuest buttonBy.xpath: //button[@class='button-1 checkout-as-guest-button']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter firstname Harry in first fieldBy.id: BillingNewAddress_FirstName<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter last name Potter in last name fieldBy.id: BillingNewAddress_LastName<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on email field By.id: BillingNewAddress_Email<br>]]>
+    </line>
+    <line>
+      <![CDATA[Send email id harryPotterrandom number774Domain@gmail.comIn emailid field By.id: BillingNewAddress_Email<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select visible text United Kingdom In country field By.id: BillingNewAddress_CountryId<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter city name Leicester in city fieldBy.id: BillingNewAddress_City<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter address75,Corporation road in address fieldBy.id: BillingNewAddress_Address1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter post codeLE45NJ in postal code fieldBy.id: BillingNewAddress_ZipPostalCode<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter phone number07896543215 in phone number fieldBy.id: BillingNewAddress_PhoneNumber<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on continue button By.xpath: //button[@onclick='Billing.save()']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on next day air delivery radio button By.xpath: (//input[contains(@id,'shippingoption')])[2]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on shipping continue button By.xpath: //button[@onclick='ShippingMethod.save()']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on credit card radio button By.xpath: (//input[contains(@id,'paymentmethod')])[2]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on payment continue button By.xpath: //button[@onclick='PaymentMethod.save()']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select card MasterCard from drop down By.id: CreditCardType<br>]]>
+    </line>
+    <line>
+      <![CDATA[Send text Harry Potter In card holder field By.id: CardholderName<br>]]>
+    </line>
+    <line>
+      <![CDATA[Send text 5465222828379708 In card number field By.id: CardNumber<br>]]>
+    </line>
+    <line>
+      <![CDATA[Send text 01 In expire month field By.id: ExpireMonth<br>]]>
+    </line>
+    <line>
+      <![CDATA[Send text 2022 In expire year field 2022<br>]]>
+    </line>
+    <line>
+      <![CDATA[Send text 283 In card code field By.id: CardCode<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on payment confirmation button By.xpath: //button[@onclick='PaymentInfo.save()']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting payment method confirmation text from By.xpath: //button[@onclick='PaymentMethod.save()']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting shipping method confirmation text from By.xpath: //li[@class='shipping-method']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting total price text from By.xpath: //span[@class='value-summary']/child::strong<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on confirm order button By.xpath: //button[@onclick='ConfirmOrder.save()']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting thank you text from By.xpath: //h1[text()='Thank you']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting order confirmation text from By.xpath: //strong[text()='Your order has been successfully processed!']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on continue buttonBy.xpath: //button[contains(text(),'Continue')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting welcome TextBy.xpath: //h2[text()='Welcome to our store']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on desktopLinkBy.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select filter Z to A fromBy.id: products-orderby<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get product name list from By.xpath: //div[@class='product-grid']//h2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br>]]>
+    </line>
+    <line>
+      <![CDATA[getting title text By.xpath: //div[@class='page-title']<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="108627" started-at="2021-06-16T21:33:53Z" finished-at="2021-06-16T21:35:42Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessfully()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductAddedToShoppingCartSuccessfully" class="com.nopcommerce.demo.testSuite.computer.TestSuite"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommerce.demo.testSuite.computer.TestSuite"/>
+        <method signature="TestTopMenu.selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" class="com.nopcommerce.demo.testSuite.homePage.TestTopMenu"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestSuite.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommerce.demo.testSuite.computer.TestSuite"/>
+        <method signature="TestTopMenu.selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" class="com.nopcommerce.demo.testSuite.homePage.TestTopMenu"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessfully()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductAddedToShoppingCartSuccessfully" class="com.nopcommerce.demo.testSuite.computer.TestSuite"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommerce.demo.testSuite.computer.TestSuite"/>
+        <method signature="TestTopMenu.selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" class="com.nopcommerce.demo.testSuite.homePage.TestTopMenu"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="108627" started-at="2021-06-16T21:33:53Z" finished-at="2021-06-16T21:35:42Z">
+      <class name="com.nopcommerce.demo.testSuite.homePage.TestTopMenu">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9]" name="setUp" is-config="true" duration-ms="3004" started-at="2021-06-16T21:35:37Z" finished-at="2021-06-16T21:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" duration-ms="1182" started-at="2021-06-16T21:35:40Z" finished-at="2021-06-16T21:35:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[getting title text By.xpath: //div[@class='page-title']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectMenuAndClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testSuite.homePage.TestTopMenu@475530b9]" name="tearDown" is-config="true" duration-ms="638" started-at="2021-06-16T21:35:41Z" finished-at="2021-06-16T21:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testSuite.homePage.TestTopMenu -->
+      <class name="com.nopcommerce.demo.testSuite.computer.TestSuite">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="setUp" is-config="true" duration-ms="3649" started-at="2021-06-16T21:33:53Z" finished-at="2021-06-16T21:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessfully()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductAddedToShoppingCartSuccessfully" duration-ms="79954" started-at="2021-06-16T21:33:57Z" finished-at="2021-06-16T21:35:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on desktopLinkBy.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select filter A to Z fromBy.id: products-orderby<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Build your own computer add to cart button By.xpath: //div[@data-productid='1']//div[@class='buttons']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting welcome text By.xpath: //h1[contains(text(),'Build your own computer')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select processor from drop down By.xpath: (//select[contains(@id,'product_attribute')])[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select ram from drop down By.xpath: (//select[contains(@id,'product_attribute')])[2]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting list of hdd radio buttons By.xpath: (//ul[@class='option-list'])[1]//label<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting text320 GBFrom element 320 GB and compare with hdd400 GB [+$100.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting text400 GB [+$100.00]From element 400 GB [+$100.00] and compare with hdd400 GB [+$100.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[1]//label]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting list of os radio buttons By.xpath: (//ul[@class='option-list'])[2]//label<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting textVista Home [+$50.00]From element Vista Home [+$50.00] and compare with osVista Premium [+$60.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting textVista Premium [+$60.00]From element Vista Premium [+$60.00] and compare with osVista Premium [+$60.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[2]//label]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting list of software check box By.xpath: (//ul[@class='option-list'])[3]//label<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting textMicrosoft Office [+$50.00]From element Microsoft Office [+$50.00] and compare with softwareTotal Commander [+$5.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting textAcrobat Reader [+$10.00]From element Acrobat Reader [+$10.00] and compare with softwareTotal Commander [+$5.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting textTotal Commander [+$5.00]From element Total Commander [+$5.00] and compare with softwareTotal Commander [+$5.00]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element [[ChromeDriver: chrome on WINDOWS (ff1f83e8c12386a3e517a44f8c815b91)] -> xpath: (//ul[@class='option-list'])[3]//label]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting price text from By.xpath: //span[contains(@id,'price-value')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on add to cart button By.xpath: //button[contains(@id,'add-to-cart-button')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting popup text from By.xpath: //body/div[@id='bar-notification']/div[1]/p[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Accept pop up close button By.xpath: //body/div[@id='bar-notification']/div[1]/span[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Mouse hover to shopping cart link By.xpath: //span[contains(text(),'Shopping cart')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on go to cart button By.xpath: //button[contains(text(),'Go to cart')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting welcome text from By.xpath: //h1[contains(text(),'Shopping cart')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Change Quantity 2 On element By.xpath: //input[contains(@id,'itemquantity')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on update shopping cart By.xpath: //button[contains(text(),'Update shopping cart')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting total price text from By.xpath: //td[@class='subtotal']/child::span<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on terms of service By.id: termsofservice<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on check out button By.id: checkout<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting welcome TextBy.xpath: //h1[contains(text(),'Welcome, Please Sign In!')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on checkOutAsGuest buttonBy.xpath: //button[@class='button-1 checkout-as-guest-button']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter firstname Harry in first fieldBy.id: BillingNewAddress_FirstName<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter last name Potter in last name fieldBy.id: BillingNewAddress_LastName<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on email field By.id: BillingNewAddress_Email<br>]]>
+            </line>
+            <line>
+              <![CDATA[Send email id harryPotterrandom number774Domain@gmail.comIn emailid field By.id: BillingNewAddress_Email<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select visible text United Kingdom In country field By.id: BillingNewAddress_CountryId<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter city name Leicester in city fieldBy.id: BillingNewAddress_City<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter address75,Corporation road in address fieldBy.id: BillingNewAddress_Address1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter post codeLE45NJ in postal code fieldBy.id: BillingNewAddress_ZipPostalCode<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter phone number07896543215 in phone number fieldBy.id: BillingNewAddress_PhoneNumber<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on continue button By.xpath: //button[@onclick='Billing.save()']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on next day air delivery radio button By.xpath: (//input[contains(@id,'shippingoption')])[2]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on shipping continue button By.xpath: //button[@onclick='ShippingMethod.save()']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on credit card radio button By.xpath: (//input[contains(@id,'paymentmethod')])[2]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on payment continue button By.xpath: //button[@onclick='PaymentMethod.save()']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select card MasterCard from drop down By.id: CreditCardType<br>]]>
+            </line>
+            <line>
+              <![CDATA[Send text Harry Potter In card holder field By.id: CardholderName<br>]]>
+            </line>
+            <line>
+              <![CDATA[Send text 5465222828379708 In card number field By.id: CardNumber<br>]]>
+            </line>
+            <line>
+              <![CDATA[Send text 01 In expire month field By.id: ExpireMonth<br>]]>
+            </line>
+            <line>
+              <![CDATA[Send text 2022 In expire year field 2022<br>]]>
+            </line>
+            <line>
+              <![CDATA[Send text 283 In card code field By.id: CardCode<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on payment confirmation button By.xpath: //button[@onclick='PaymentInfo.save()']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting payment method confirmation text from By.xpath: //button[@onclick='PaymentMethod.save()']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting shipping method confirmation text from By.xpath: //li[@class='shipping-method']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting total price text from By.xpath: //span[@class='value-summary']/child::strong<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on confirm order button By.xpath: //button[@onclick='ConfirmOrder.save()']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting thank you text from By.xpath: //h1[text()='Thank you']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting order confirmation text from By.xpath: //strong[text()='Your order has been successfully processed!']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on continue buttonBy.xpath: //button[contains(text(),'Continue')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting welcome TextBy.xpath: //h2[text()='Welcome to our store']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="tearDown" is-config="true" duration-ms="720" started-at="2021-06-16T21:35:17Z" finished-at="2021-06-16T21:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="setUp" is-config="true" duration-ms="2889" started-at="2021-06-16T21:35:17Z" finished-at="2021-06-16T21:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="15848" started-at="2021-06-16T21:35:20Z" finished-at="2021-06-16T21:35:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting list of top menu tabs By.xpath: //div[@class='header-menu']/ul[1]/li/a<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on desktopLinkBy.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select filter Z to A fromBy.id: products-orderby<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get product name list from By.xpath: //div[@class='product-grid']//h2<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testSuite.computer.TestSuite@2b98378d]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-06-16T21:35:36Z" finished-at="2021-06-16T21:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testSuite.computer.TestSuite -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
